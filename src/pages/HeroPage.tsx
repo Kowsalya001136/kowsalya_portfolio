@@ -6,7 +6,7 @@ import SocialLinks from "@/components/SocialLinks";
 import GlassCard from "@/components/GlassCard";
 
 const highlights = [
-  { icon: GraduationCap, label: "Fresh Graduate", value: "Fresher" },
+  { icon: GraduationCap, label: "Final Year Student", value: "Student" },
   { icon: Code, label: "Projects Built", value: "2+" },
   { icon: Rocket, label: "Ready to", value: "Learn & Grow" },
 ];
@@ -37,7 +37,7 @@ const HeroPage = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl md:text-2xl text-muted-foreground max-w-xl"
             >
-              Aspiring Web Developer | Fresh Graduate eager to learn new technologies and explore the world of software development.
+              Aspiring Web Developer | Final year student eager to learn new technologies and explore the world of software development.
             </motion.p>
 
             <motion.div
@@ -71,8 +71,8 @@ const HeroPage = () => {
             <GlassCard delay={0.3}>
               <h2 className="text-2xl font-display font-bold mb-4 gradient-text">About Me</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I'm a passionate fresher with a strong foundation in web development technologies. 
-                As a recent graduate, I'm excited to embark on my professional journey and contribute 
+                I'm a passionate final year student with a strong foundation in web development technologies. 
+                As I prepare to begin my professional journey, I'm excited to contribute 
                 to meaningful projects while continuously learning and growing.
               </p>
               <p className="text-muted-foreground leading-relaxed">
